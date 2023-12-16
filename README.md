@@ -3,9 +3,10 @@
 
 **Team Name**: hackstr  
 **Students**:  
+* Trinadh Rayala (trayala@hawk.iit.edu)
 * Naga Krishna Poorna Chandu Kovelamudi (nkovelamudi@hawk.iit.edu)  
 * RakeshDatta Adapa (radapa@hawk.iit.edu)  
-* Trinadh Rayala (trayala@hawk.iit.edu)
+
 
 
 # Blockchain Project
