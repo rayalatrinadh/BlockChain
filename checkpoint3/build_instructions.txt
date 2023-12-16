@@ -1,0 +1,33 @@
+## build instructions
+
+#install java using script installjava.sh
+
+and set these varialbes manually:
+
+{	JAVA_HOME='/opt/jdk-13.0.1'
+	PATH="$JAVA_HOME/bin:$PATH"
+	export PATH
+}
+
+now run command java -version to check the installation of java.
+
+#install maven
+
+sudo apt install maven
+
+now navigate to dsc where the .pom file is located and run the command "mvn clean install"
+
+lauch the main console file using the command "java -cp target/dsc-1.0-SNAPSHOT-jar-with-dependencies.jar com.aos.Main"
+
+launch blockchain using the command "java -cp target/dsc-1.0-SNAPSHOT-jar-with-dependencies.jar com.aos.BlockChain"
+
+launch Pool using the command "java -cp target/dsc-1.0-SNAPSHOT-jar-with-dependencies.jar com.aos.Pool"
+
+launch Validator using the command "java -cp target/dsc-1.0-SNAPSHOT-jar-with-dependencies.jar com.aos.Validator"
+
+launch Metronome using the command "java -cp target/dsc-1.0-SNAPSHOT-jar-with-dependencies.jar com.aos.Metronome"
+
+Note: if the config file is doestn't exit you may get some exception.
+
+launch the main console and give the command wallet create,  which will by defult creates a config file with defult values.
+

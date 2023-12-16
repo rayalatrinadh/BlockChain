@@ -1,0 +1,32 @@
+wallet:
+  public_key: Fbr2izwDmotW8ZWF27xNx34TsnXAABK8dgw9dcT7UxTM
+pool:
+  threads: 2
+  server: 127.0.0.1
+  port: 10001
+blockchain:
+  threads: 2
+  server: 127.0.0.1
+  port: 10002
+metronome:
+  threads: 2
+  server: 127.0.0.1
+  port: 10003
+validator:
+  proof_pom:
+    memory: 1G
+    threads_hash: 2
+    enable: false
+  proof_pow:
+    threads_hash: 2
+    enable: true
+  public_key: ''
+  fingerprint: ''
+  proof_pos:
+    threads_io: 1
+    bucket_size: 32768
+    buckets: 256
+    disk: 10G
+    enable: false
+    vault: ~/dsc-pos.vault
+    threads_hash: 2
